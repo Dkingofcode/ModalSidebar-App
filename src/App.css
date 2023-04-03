@@ -63,6 +63,12 @@ SIDEBAR
   row-gap: 1rem;
   box-shadow: 0 10px 10px 0 rgba(255, 255, 255, 0.3);
   transition: all 3s ease-in-out;
+  /* toggle logic */
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translateX(0);
 }
 
 @media screen and (min-width: 676px){
@@ -78,7 +84,7 @@ SIDEBAR
   padding: 1rem 1.5rem;
 }
 
-.logO{
+.logo{
 
 }
 
