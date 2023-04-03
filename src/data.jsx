@@ -1,4 +1,16 @@
-import { FaUserFriends, FaFaceBook, FaHome, FaFolderOpen, FaCalendarAlt, FaWpforms } from 'react-icons/fa';
+import React from 'react';
+import { 
+  FaBehance,
+  FaFacebook,
+  FaLinkedin,
+  FaTwitter,
+  FaSketch, 
+  FaUserFriends, 
+  FaHome, 
+  FaFolderOpen, 
+  FaCalendarAlt, 
+  FaWpforms, 
+} from 'react-icons/fa';
 
 export const links = [
     {
@@ -17,13 +29,13 @@ export const links = [
       id: 3,
       url: '/projects',
       text: 'projects',
-      icon: <FaCalendarAlt />,
+      icon: <FaFolderOpen />,
     },
     {
       id: 4,
       url: '/calendar',
       text: 'calendar',
-      icon: <FaSketch />,
+      icon: <FaCalendarAlt />,
     },
     {
       id: 5,
@@ -37,7 +49,7 @@ export const social = [
     {
       id: 1,
       url: 'https://www.twitter.com',
-      icon: <FaFaceBook />,   
+      icon: <FaFacebook />,   
     },
     { 
         id: 2,
